@@ -2,129 +2,132 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tarjetas de Estudio – Historia 1er Trimestre</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas de Estudio - Historia 1er Trimestre</title>
   <style>
     body {
-      background: #f9f6ff;
       font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fde68a, #fef3c7);
+      color: #1e293b;
       padding: 2rem;
-      color: #333;
+      line-height: 1.6;
     }
-
     h1 {
       text-align: center;
-      color: #7a5cc2;
+      font-size: 2.2rem;
       margin-bottom: 2rem;
+      color: #92400e;
     }
-
+    h2 {
+      color: #b45309;
+      margin-top: 2rem;
+    }
     .card {
-      background: #fff;
-      border-left: 6px solid #bfa3f2;
-      margin: 1.5rem auto;
-      padding: 1.2rem;
-      border-radius: 12px;
-      max-width: 700px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-      transition: 0.3s;
+      background-color: #ffffffcc;
+      border-left: 4px solid #f59e0b;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
     }
-
-    .card:hover {
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    }
-
-    .tema {
-      font-size: 1.1rem;
+    .question {
       font-weight: bold;
-      color: #7a5cc2;
-      margin-bottom: 0.6rem;
     }
-
-    .pregunta {
-      font-size: 1rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-      color: #444;
-    }
-
-    .respuesta {
-      display: none;
+    .answer {
       margin-top: 0.5rem;
-      color: #555;
-      background: #f0ebff;
-      padding: 0.7rem;
-      border-radius: 8px;
-    }
-
-    .btn-toggle {
-      background: #d9c5f2;
-      border: none;
-      color: #4b367c;
-      padding: 8px 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.3s;
-      margin-top: 0.4rem;
-    }
-
-    .btn-toggle:hover {
-      background: #c3aef0;
     }
   </style>
 </head>
 <body>
+  <h1>Tarjetas de Estudio – Historia del Mundo Contemporáneo (1º Trimestre)</h1>
 
-  <h1>🧠 Tarjetas de Estudio – Historia 1er Trimestre</h1>
-
-  <!-- TEMA 1 -->
+  <h2>Tema 1 – Antiguo Régimen e Ilustración</h2>
   <div class="card">
-    <div class="tema">Tema 1 – Antiguo Régimen e Ilustración</div>
-    <div class="pregunta">¿Cuáles eran las principales características del Antiguo Régimen?</div>
-    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
-    <div class="respuesta">
-      Economía agraria, sociedad estamental (nobleza, clero y pueblo llano), y monarquía absoluta con poder centralizado en el rey.
-    </div>
+    <div class="question">¿Cuáles eran las características del Antiguo Régimen?</div>
+    <div class="answer">Economía agraria, sociedad estamental y monarquía absoluta.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué es la Ilustración?</div>
+    <div class="answer">Un movimiento intelectual del siglo XVIII que defendía la razón, el progreso y la ciencia.</div>
+  </div>
+  <div class="card">
+    <div class="question">Nombra filósofos ilustrados importantes.</div>
+    <div class="answer">Voltaire, Montesquieu, Rousseau.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué es el liberalismo económico?</div>
+    <div class="answer">Doctrina que defiende la no intervención del Estado en la economía (Adam Smith).</div>
   </div>
 
-  <!-- TEMA 2 -->
+  <h2>Tema 2 – Revoluciones políticas</h2>
   <div class="card">
-    <div class="tema">Tema 2 – Revoluciones y Restauración</div>
-    <div class="pregunta">¿Cuáles fueron las etapas principales de la Revolución Francesa?</div>
-    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
-    <div class="respuesta">
-      1. Monarquía constitucional (1789–1792) <br>
-      2. República y el Terror (1792–1794) <br>
-      3. El Directorio (1795–1799) <br>
-      4. El Consulado y el Imperio (1799–1815)
-    </div>
+    <div class="question">¿Cuáles son los principios del liberalismo político?</div>
+    <div class="answer">División de poderes, soberanía nacional, derechos individuales.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué importancia tuvo la Revolución Americana?</div>
+    <div class="answer">Fue la primera independencia colonial exitosa y base del constitucionalismo moderno.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Cuáles fueron las etapas de la Revolución Francesa?</div>
+    <div class="answer">Asamblea Nacional (1789), Convención, Directorio y Consulado.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué causó la Revolución Francesa?</div>
+    <div class="answer">Crisis económica, desigualdad social, influencia ilustrada y mala administración.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué es la Restauración?</div>
+    <div class="answer">Proceso de retorno al absolutismo tras la derrota de Napoleón (Congreso de Viena, 1815).</div>
   </div>
 
-  <!-- TEMA 3 -->
+  <h2>Tema 3 – Revolución Industrial</h2>
   <div class="card">
-    <div class="tema">Tema 3 – Revolución Industrial</div>
-    <div class="pregunta">¿Qué factores permitieron que la Revolución Industrial comenzara en Gran Bretaña?</div>
-    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
-    <div class="respuesta">
-      Recursos naturales (carbón y hierro), capital, avances tecnológicos, población trabajadora, sistema bancario sólido y estabilidad política.
-    </div>
+    <div class="question">¿Por qué empezó la Revolución Industrial en Gran Bretaña?</div>
+    <div class="answer">Disponibilidad de capital, recursos naturales, revolución agrícola y estabilidad política.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué fue la revolución agrícola?</div>
+    <div class="answer">Mejoras técnicas en el campo que aumentaron la producción de alimentos.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué papel tuvieron los transportes en la industrialización?</div>
+    <div class="answer">Permitieron la distribución masiva de productos y materias primas.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué diferencias hubo entre Gran Bretaña y Europa continental?</div>
+    <div class="answer">En Europa fue más lenta, con mayor intervención estatal.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué avances trajo la Segunda Revolución Industrial?</div>
+    <div class="answer">Electricidad, química, petróleo, motor de combustión y nuevas formas de organización laboral.</div>
   </div>
 
-  <!-- TEMA 4 -->
+  <h2>Tema 4 – Nacionalismo y emancipaciones</h2>
   <div class="card">
-    <div class="tema">Tema 4 – Nacionalismos y Emancipaciones</div>
-    <div class="pregunta">¿Qué características tuvo la unificación alemana y qué influencia tuvo sobre Italia?</div>
-    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
-    <div class="respuesta">
-      La unificación alemana fue liderada por Prusia y Bismarck mediante guerras. Inspiró a Italia a buscar su unidad también bajo liderazgo firme.
-    </div>
+    <div class="question">¿Qué es el nacionalismo?</div>
+    <div class="answer">Ideología que defiende el derecho de los pueblos a constituirse en naciones soberanas.</div>
   </div>
-
-  <script>
-    function toggle(btn) {
-      const respuesta = btn.nextElementSibling;
-      respuesta.style.display = (respuesta.style.display === "block") ? "none" : "block";
-    }
-  </script>
+  <div class="card">
+    <div class="question">¿Qué tipos de nacionalismo hubo en el siglo XIX?</div>
+    <div class="answer">Unificador (Italia, Alemania) y disgregador (Imperios multiculturales).</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué oleadas revolucionarias hubo en Europa?</div>
+    <div class="answer">1820, 1830 y 1848: todas buscaban libertades y reformas políticas.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué relación hay entre la unificación alemana e italiana?</div>
+    <div class="answer">La alemana influyó en la italiana: ambas usaron la guerra y la diplomacia.</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Qué fue la emancipación hispanoamericana?</div>
+    <div class="answer">Proceso de independencia de las colonias americanas frente a España (1810–1825).</div>
+  </div>
+  <div class="card">
+    <div class="question">¿Quiénes fueron los principales líderes de la emancipación?</div>
+    <div class="answer">Simón Bolívar, José de San Martín, Miguel Hidalgo, entre otros.</div>
+  </div>
 
 </body>
 </html>

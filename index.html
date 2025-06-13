@@ -2,135 +2,129 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tarjetas de Estudio - Historia</title>
+  <title>Tarjetas de Estudio – Historia 1er Trimestre</title>
   <style>
     body {
+      background: #f9f6ff;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #dbeafe, #f0fdf4);
-      color: #1e293b;
       padding: 2rem;
-      line-height: 1.6;
+      color: #333;
     }
+
     h1 {
       text-align: center;
-      font-size: 2.2rem;
+      color: #7a5cc2;
       margin-bottom: 2rem;
-      color: #1e40af;
     }
-    h2 {
-      color: #2563eb;
-      margin-top: 2rem;
-    }
+
     .card {
-      background-color: #ffffffcc;
-      border-left: 4px solid #60a5fa;
-      margin: 1rem 0;
-      padding: 1rem;
-      border-radius: 0.5rem;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      background: #fff;
+      border-left: 6px solid #bfa3f2;
+      margin: 1.5rem auto;
+      padding: 1.2rem;
+      border-radius: 12px;
+      max-width: 700px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: 0.3s;
     }
-    .question {
+
+    .card:hover {
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .tema {
+      font-size: 1.1rem;
       font-weight: bold;
+      color: #7a5cc2;
+      margin-bottom: 0.6rem;
     }
-    .answer {
+
+    .pregunta {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+
+    .respuesta {
+      display: none;
       margin-top: 0.5rem;
+      color: #555;
+      background: #f0ebff;
+      padding: 0.7rem;
+      border-radius: 8px;
+    }
+
+    .btn-toggle {
+      background: #d9c5f2;
+      border: none;
+      color: #4b367c;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+      margin-top: 0.4rem;
+    }
+
+    .btn-toggle:hover {
+      background: #c3aef0;
     }
   </style>
 </head>
 <body>
-  <h1>Tarjetas de Estudio – Historia del Mundo Contemporáneo</h1>
 
-  <h2>Tema 8 – Crisis del sistema capitalista y modelos alternativos</h2>
+  <h1>🧠 Tarjetas de Estudio – Historia 1er Trimestre</h1>
+
+  <!-- TEMA 1 -->
   <div class="card">
-    <div class="question">¿Qué problemas económicos surgieron tras la I Guerra Mundial?</div>
-    <div class="answer">Inflación, desempleo, destrucción de infraestructuras, crisis agrícola e industrial.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué fue el crack de 1929?</div>
-    <div class="answer">Una caída brutal de la Bolsa de Nueva York que desencadenó una crisis económica mundial.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué medidas incluyó el New Deal?</div>
-    <div class="answer">Intervención estatal, obras públicas, subsidios al desempleo, reforma bancaria.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué es la NEP?</div>
-    <div class="answer">Política económica de Lenin que permitía propiedad privada limitada para reactivar la economía.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué caracteriza al régimen estalinista?</div>
-    <div class="answer">Colectivización forzosa, planificación estatal, represión, culto al líder.</div>
+    <div class="tema">Tema 1 – Antiguo Régimen e Ilustración</div>
+    <div class="pregunta">¿Cuáles eran las principales características del Antiguo Régimen?</div>
+    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
+    <div class="respuesta">
+      Economía agraria, sociedad estamental (nobleza, clero y pueblo llano), y monarquía absoluta con poder centralizado en el rey.
+    </div>
   </div>
 
-  <h2>Tema 9 – Regímenes totalitarios</h2>
+  <!-- TEMA 2 -->
   <div class="card">
-    <div class="question">¿Qué es un régimen autoritario?</div>
-    <div class="answer">Gobierno antidemocrático, antiliberal y nacionalista, con uso de la violencia.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué rasgos tiene un régimen totalitario?</div>
-    <div class="answer">Partido único, control total de la sociedad, propaganda, censura, culto al líder.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué causó el ascenso del fascismo en Italia?</div>
-    <div class="answer">Crisis económica, miedo al comunismo, descontento social y debilidad del Estado.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué buscaba la política exterior de Mussolini?</div>
-    <div class="answer">Crear un nuevo Imperio Romano: invadió Etiopía y Albania.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Cómo llegó Hitler al poder?</div>
-    <div class="answer">Fue nombrado canciller en 1933 y luego instauró una dictadura.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué hizo Hitler en política exterior antes de la guerra?</div>
-    <div class="answer">Remilitarizó Alemania, anexó Austria y parte de Checoslovaquia, firmó pactos estratégicos.</div>
+    <div class="tema">Tema 2 – Revoluciones y Restauración</div>
+    <div class="pregunta">¿Cuáles fueron las etapas principales de la Revolución Francesa?</div>
+    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
+    <div class="respuesta">
+      1. Monarquía constitucional (1789–1792) <br>
+      2. República y el Terror (1792–1794) <br>
+      3. El Directorio (1795–1799) <br>
+      4. El Consulado y el Imperio (1799–1815)
+    </div>
   </div>
 
-  <h2>Tema 10 – Segunda Guerra Mundial</h2>
+  <!-- TEMA 3 -->
   <div class="card">
-    <div class="question">¿Cuáles fueron las causas de la Segunda Guerra Mundial?</div>
-    <div class="answer">Expansión nazi y fascista, fracaso de la Sociedad de Naciones, apaciguamiento occidental.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Cuándo empezó la guerra?</div>
-    <div class="answer">El 1 de septiembre de 1939 con la invasión de Polonia por Alemania.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué fue el Desembarco de Normandía?</div>
-    <div class="answer">Invasión aliada de Europa occidental en junio de 1944 para liberar Francia.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué se decidió en las conferencias de Yalta y Potsdam?</div>
-    <div class="answer">División de Alemania, nuevas fronteras europeas, creación de la ONU.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Cuándo se fundó la ONU y con qué objetivo?</div>
-    <div class="answer">En 1945, para mantener la paz y evitar nuevos conflictos globales.</div>
+    <div class="tema">Tema 3 – Revolución Industrial</div>
+    <div class="pregunta">¿Qué factores permitieron que la Revolución Industrial comenzara en Gran Bretaña?</div>
+    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
+    <div class="respuesta">
+      Recursos naturales (carbón y hierro), capital, avances tecnológicos, población trabajadora, sistema bancario sólido y estabilidad política.
+    </div>
   </div>
 
-  <h2>Tema 11 – Guerra Fría y Descolonización</h2>
+  <!-- TEMA 4 -->
   <div class="card">
-    <div class="question">¿Qué fue la Guerra Fría?</div>
-    <div class="answer">Conflicto ideológico y político entre EE. UU. y la URSS sin enfrentamiento directo.</div>
+    <div class="tema">Tema 4 – Nacionalismos y Emancipaciones</div>
+    <div class="pregunta">¿Qué características tuvo la unificación alemana y qué influencia tuvo sobre Italia?</div>
+    <button class="btn-toggle" onclick="toggle(this)">Mostrar/Ocultar respuesta</button>
+    <div class="respuesta">
+      La unificación alemana fue liderada por Prusia y Bismarck mediante guerras. Inspiró a Italia a buscar su unidad también bajo liderazgo firme.
+    </div>
   </div>
-  <div class="card">
-    <div class="question">¿Qué causó la descolonización?</div>
-    <div class="answer">Debilitamiento europeo, nacionalismos, apoyo de EE. UU. y URSS.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Quién lideró la independencia de la India?</div>
-    <div class="answer">Mahatma Gandhi, con un movimiento de resistencia pacífica.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Qué ocurrió tras la independencia de India en 1947?</div>
-    <div class="answer">Se dividió en India (hindú) y Pakistán (musulmán), provocando conflictos.</div>
-  </div>
-  <div class="card">
-    <div class="question">¿Cómo nació la República Popular China?</div>
-    <div class="answer">Los comunistas de Mao Zedong vencieron a los nacionalistas en la guerra civil (1949).</div>
-  </div>
+
+  <script>
+    function toggle(btn) {
+      const respuesta = btn.nextElementSibling;
+      respuesta.style.display = (respuesta.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
 </body>
 </html>
